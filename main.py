@@ -34,7 +34,7 @@ def sourceButton():
 #Основная часть
 window = Tk()
 
-window.iconbitmap(r'SpeedTester/app.ico')
+window.iconbitmap(r'app.ico')
 window.title('SpeedTester')
 window.geometry('300x400')
 

@@ -29,12 +29,15 @@ def asyncButton():
 
 #Кнопка перехода на исходный код (если будете удалять эту кнопку то удалите 5 строку тоже)
 def sourceButton():
-    wb.open('')
+    wb.open('https://github.com/SirSatorik/SpeedTesterV2')
 
 #Основная часть
 window = Tk()
-
+#Иконка (Убрать хештег только если в папке с exe есть иконка с названием app в формате .ico)
+#window.iconbitmap(r'app.ico')
+#Название
 window.title('SpeedTester')
+#Размер окна
 window.geometry('300x400')
 
 #Создание кнопки
